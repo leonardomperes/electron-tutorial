@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="../public/css/bootstrap.min.css">
+    <!-- CSS customizado -->
+     <link rel="stylesheet" href="../public/css/style.css">
+    <title>Electron tutorial</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Electron Tutorial</h1>
+        <h2 class="mt-3">Janela Modal</h2>
+
+        <button id="open-child">Janela Secundaria</button>
+        <button class="btn btn-info" id="info">Informações</button>
+        <button class="btn btn-warning" id="warning">Aviso</button>
+        <button class="btn btn-secondary" id="select">Selecionar</button>
+    </div>
+
+    <footer>
+        <p id="dataAtual"></p>
+    </footer>
+    <script src="renderer.js"></script>
+    <script src="../public/js/bootstrap.min.js"></script>
+</body>
+
+</html>
