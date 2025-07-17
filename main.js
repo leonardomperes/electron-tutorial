@@ -53,7 +53,7 @@ app.whenReady().then(() => {
     createWindow()
     // aboutWindow()
     // Exemplo de uso do banco de dados
-    db.run("INSERT INTO users (name, phone) VALUES (?, ?)", ['Marcia', '19983946666'], function (err) {
+    db.run("INSERT INTO users (name, phone) VALUES (?, ?)", ['Joe', 'xxxxxxxxxxx'], function (err) {
         if (err) {
             return console.error(err.message);
         } else {
